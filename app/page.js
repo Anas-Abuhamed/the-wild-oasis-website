@@ -336,7 +336,7 @@
 
 
 
-//? search about online payments stripe
+//? search about online payments stripe]
 //? search about zod library // for validation
 
 import Image from "next/image";
