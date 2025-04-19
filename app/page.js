@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 //? bookings = reservations
 
 // Todo: create nextjs project: npx create-next-app@14 prjName
@@ -338,12 +337,10 @@
 //? search about online payments stripe]
 //? search about zod library // for validation
 
-=======
->>>>>>> 857fc7c750fe9b149b8b24fa5bfd5e9f720debca
 import Image from "next/image";
-import Link from "next/link"; 
+import Link from "next/link";
 import bg from "@/public/bg.png";
-export default function Page() { 
+export default function Page() {
   return (
     <main className="mt-24">
       <Image className="object-cover"
@@ -351,7 +348,7 @@ export default function Page() {
         fill
         placeholder="blur"
         quality={80}
-        alt="Mountains and forests with two cabins" /> 
+        alt="Mountains and forests with two cabins" />
 
       <div className="relative z-10 text-center">
         <h1 className="text-8xl text-primary-50 mb-10 tracking-tight font-normal">
