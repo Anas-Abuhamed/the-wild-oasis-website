@@ -31,8 +31,6 @@
 //  No API
 //  Things like context API don't work  in server Components
 
-// Slides are important***
-
 // Server components can have props(must be serializable when passed to client components, no functions or classes)
 // Server components prefered to data fetching
 // Server components re-render when URL change(navigation)

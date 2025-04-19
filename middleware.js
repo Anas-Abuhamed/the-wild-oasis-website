@@ -12,6 +12,6 @@ import { auth } from "./app/_lib/auth";
 export const middleware = auth;
 
 export const config = { // without it, the page will have infinite redirect
-    matcher: ["/account", "/cabins"], // to specify which route(s) will middle ware work with
+    matcher: ["/account/:path*"], // to specify which route(s) will middle ware work with
 }
 
